@@ -130,7 +130,7 @@ async function setupVideoCall(server) {
                     listenIps: [
                         {
                             ip: "0.0.0.0",              //// Bind to all interfaces (okay for dev)
-                            announcedIp: "192.168.73.136" // change during deployment
+                            announcedIp: "YOUR_IPV4_ADDRESS" // change during deployment
                         }
                     ],
                     enableUdp: true,
